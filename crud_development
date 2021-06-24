@@ -1,0 +1,9 @@
+CREATE TABLE crud_development(
+        crud_developmentId SERIAL PRIMARY KEY,
+        crud_developmentName VARCHAR(255) NOT
+NULL,
+Quantity INTEGER NOT NULL,
+Price NUMBER(5,2)
+);
+
+
