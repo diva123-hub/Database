@@ -1,0 +1,27 @@
+CREATE:
+
+Create table student(name Varchar(30) NOT NULL, marks Integer);
+student(ravi,23)
+student(swati,33)
+student(Kranti,12)
+ 
+GET:
+
+Select * from student;
+
+Update:
+
+Update student set marks = 100
+Where name =”ravi”;
+Select * from student;
+
+
+Delete:
+
+delete from student
+where marks = 100;
+Select * from student;
+
+
+
+
